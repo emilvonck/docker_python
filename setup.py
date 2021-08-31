@@ -18,4 +18,5 @@ setup(
     author_email="emilvonck@test.local",
     py_modules=["docker_python"],
     entry_points={"console_scripts": ["docker_python=docker_python:main"]},
+    install_requires=['rich']
 )
